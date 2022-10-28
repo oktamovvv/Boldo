@@ -1,0 +1,37 @@
+#main-nav {
+  background-color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 10px #aaa;
+}
+
+#main-nav .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-nav .logo {
+  font-size: 43px;
+  font-weight: 700px;
+  color: #0a2640;
+}
+
+#main-nav {
+  ul {
+    display: flex;
+    gap: 2rem;
+    li {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0a2640;
+    }
+  }
+}
+
+.nav-btn {
+  width: 128px;
+  height: 40px;
+  border: 2px solid #0a2640;
+  border-radius: 24px;
+  padding: 8px 2rem;}
